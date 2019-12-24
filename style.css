@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    direction: rtl;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    min-height: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+header {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#header-carousel .carousel-inner {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 0;
+    transform: translate(0, 0);
+}
+
+#header-carousel .carousel-item {
+    min-width: 10vw;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;   
+}
+
+#carousel-slide1 {
+    background-image: url("https://www.projedefirsat.com/HaberDosyalar/images/9(10).jpg");
+}
+#carousel-slide2 {
+    background-image: url(https://www.eliteworldhotels.com.tr/Resources/Gallery/ImageFile/4_l.jpg);
+}
+#carousel-slide3 {
+    background-image: url(https://res.cloudinary.com/emlakjet/image/upload/c_limit,h_1080,w_1920/pvektu7crfeejahk4xd1.jpg);
+}
+
+.header-overlay {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: #080d15;;
+    /* z-index: 0; */
+    opacity: .7;
+}
+
+.header-content {
+    height: 100vh;
+}
+
+.header-content h1 {
+    padding: 25px 0;
+}
+
+.lables {
+    /* top: 25%; */
+    direction: ltr;
+    position: absolute;
+    transform: translate(-0%, -0%);
+    left: 0;
+}
+
+.lable {
+    width: 6em;
+    margin-top: 10px;
+    font-size: 1em;
+}
+.lable p {
+    margin: 0;
+    padding: 8px;
+}
+
+.right-col {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header-btns{
+    justify-self: center;
+}
+
+.header-btns button, .header-btns a {
+    border: none;
+    margin-top: 15px;
+    display: block;
+    font-size: 1.4em;
+    padding: 10px;
+}
+
+.header-btns a{
+    width: fit-content;
+}
+
+.left-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header-contact {
+    margin: 25px;
+    margin-right: 15%;
+    max-width: 450px;
+}
+
+.tab-content {
+    height: 370px;
+    overflow-y: auto;
+}
+
+.tab-content img {
+    margin: 10px;
+    transition: .3s;
+    border-radius: 5px;
+}
+
+.tab-content img:hover {
+    transform: scale(1.05);
+}
+
+.tab-content a:hover {
+    color: #fff;
+}
+.project-list li{
+    display: inline-block;
+    padding: 5px;
+    border: 0.5px solid #17a2b8;
+    margin: 10px;
+}
+.project-list li strong, .project-list li i {
+    color: #17a2b8;
+}
